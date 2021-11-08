@@ -59,7 +59,17 @@ a {
   letter-spacing: 0.03em;
 
   outline: none;
+  display: inline-block;
 }
+
+.logo-blue-heder {
+  padding-top: 24px;
+}
+
+.logo-blue-footer {
+  padding-top: 60px;
+}
+
 .logo-black {
   font-family: 'Raleway', sans-serif;
   color: var(--logo-secondary-color);
