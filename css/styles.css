@@ -133,6 +133,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--tertiary-text-color);
+  padding-top: 105px;
 }
 
 .hero-button {
@@ -147,6 +148,7 @@ a {
 
   border-radius: 4px;
   padding: 10px 32px;
+  margin: 30px 485px 105px 485px;
 }
 
 /* benefits */
