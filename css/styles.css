@@ -93,7 +93,7 @@ img {
 
 .header-nav {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 /* logo */
@@ -167,8 +167,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--tertiary-text-color);
-  padding-top: 20px;
-  /* padding-bottom: 60px; */
 }
 
 .contacts-item {
@@ -287,6 +285,9 @@ img {
 }
 
 /* our team */
+.team-section {
+  background-color: #f5f4fa;
+}
 
 .our-team-group {
   display: flex;
