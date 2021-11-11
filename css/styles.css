@@ -55,7 +55,7 @@ img {
 }
 
 .section {
-  padding: 95px 0px;
+  padding: 94px 0px;
 }
 
 .container {
@@ -79,15 +79,15 @@ img {
 
 .page-header {
   background: #ffffff;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header-wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  /* margin-top: 24px;
+  margin-bottom: 25px; */
 }
 
 .header-nav {
@@ -144,6 +144,7 @@ img {
 }
 
 .site-nav-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -163,9 +164,9 @@ img {
 
 .contacts {
   display: flex;
-  font-size: 14px;
+  /* font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; */
   color: var(--tertiary-text-color);
 }
 
@@ -179,12 +180,12 @@ img {
 }
 
 .contacts-item-header {
-  color: var(--secondary-text-color);
+  /* color: var(--secondary-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em; */
 }
 
 .contacts-item-header:not(:first-child) {
@@ -194,6 +195,9 @@ img {
 .contacts-link {
   color: var(--secondary-text-color);
   padding: 32px 0;
+  font-size: 14px;
+  line-height: 1.4px;
+  letter-spacing: 0.02em;
 }
 
 .contacts-link:hover,
@@ -242,9 +246,9 @@ img {
 
 .benefits-list {
   width: 270px;
-  font-size: 14px;
+  /* font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; */
 }
 
 .benefits-list:not(:last-child) {
@@ -328,7 +332,7 @@ img {
 
 .filter {
   display: flex;
-  margin-top: 94px;
+  /* margin-top: 94px; */
   margin-bottom: 50px;
   justify-content: center;
 }
@@ -345,9 +349,9 @@ img {
   cursor: pointer;
   border-radius: 4px;
   padding: 6px 22px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border: 0;
+  border: 0; */
 }
 
 .filter-item:not(:last-child) {
@@ -382,7 +386,13 @@ img {
 
   color: var(--primary-text-color);
 
-  margin: 20px 0px 4px 0px;
+  /* margin: 20px 0px 4px 0px; */
+  margin-bottom: 4px;
+}
+
+.project-title-box {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .project-text {
@@ -416,7 +426,7 @@ img {
   margin: 0px 0px 9px 0px;
 }
 
-.contacts-item {
+.contacts-item:not(:last-child) {
   margin: 0px 0px 9px 0px;
 }
 
